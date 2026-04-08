@@ -5,18 +5,30 @@ This repository contains the C++ code used to verify, by exhaustive search, a ke
 ## 📌 Purpose
 
 We verify that for all integer parameters
-[
-1 \le \ell, m \le 10,\quad 0 \le x_\ell < \ell,\quad 0 \le x_m < m,
-]
+We verify that for all integer parameters
+
+$$
+1 \le \ell, m \le 10,\quad
+0 \le x_\ell < \ell,\quad
+0 \le x_m < m,
+$$
+
 satisfying
-[
-\ell + x_m \le m + x_\ell, \quad \ell - x_\ell \le x_\ell + x_m,
-]
+
+$$
+\ell + x_m \le m + x_\ell,\quad
+\ell - x_\ell \le x_\ell + x_m,
+$$
+
 at least one of the quantities
-[
-f_i(\ell, m, x_\ell, x_m) = 6|P_i| - 3|T_2|, \quad i = 1,\dots,8,
-]
-is greater than (-3).
+
+$$
+f_i(\ell, m, x_\ell, x_m)
+= 6|P_i| - 3|T_2|,
+\quad i = 1,\dots,8,
+$$
+
+is greater than $-3$.
 
 ## 🧠 Mathematical Background
 
