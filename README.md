@@ -52,7 +52,7 @@ Run:
 
 ## ✅ Output
 
-* Any printed tuple ((\ell, m, x_\ell, x_m)) corresponds to a counterexample.
+* Any printed tuple $(\ell, m, x_\ell, x_m)$ corresponds to a counterexample.
 
 
 ## 🔍 Reproducibility
